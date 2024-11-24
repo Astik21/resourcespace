@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Stefan Weiberg <rs@hibiki.eu>
+MAINTAINER /
 ENV DEBIAN_FRONTEND="noninteractive"
 RUN apt-get update && apt-get install -y \
     vim \
@@ -43,7 +43,7 @@ ADD cronjob /etc/cron.daily/resourcespace
 
 WORKDIR /var/www/html
 RUN rm index.html
-RUN svn co -q https://svn.resourcespace.com/svn/rs/releases/10.3 .
+RUN svn co -q https://svn.resourcespace.com/svn/rs/releases/10.4 .
 RUN mkdir filestore
 RUN chmod 777 filestore
 RUN chmod -R 777 include/
