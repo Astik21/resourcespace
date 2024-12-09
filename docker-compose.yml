@@ -11,7 +11,7 @@ volumes:
 
 services:
   resourcespace:
-    image: suntorytimed/resourcespace:latest
+    image: rpa21/resourcespace:latest
     restart: unless-stopped
     depends_on:
       - mariadb
