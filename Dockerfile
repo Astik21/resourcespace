@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     antiword \
     poppler-utils \
     libimage-exiftool-perl \
+    inkscape \
     cron \
     postfix \
     wget \
