@@ -15,19 +15,19 @@ RUN apt-get update && apt-get install -y \
     postfix \
     wget \
     php \
-    php-mysqli
-    php-curl
-    php-dom
-    php-gd
-    php-intl
-    php-mbstring
-    php-xml
-    php-zip
-    php-ldap
-    php-imap
-    php-json
-    php-apcu
-    php-cli
+    php-mysqli \
+    php-curl \
+    php-dom \
+    php-gd \
+    php-intl \
+    php-mbstring \
+    php-xml \
+    php-zip \
+    php-ldap \
+    php-imap \
+    php-json \
+    php-apcu \
+    php-cli \
     libapache2-mod-php \
     ffmpeg \
     libopencv-dev \
