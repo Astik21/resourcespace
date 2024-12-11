@@ -9,7 +9,7 @@
 
 A docker image for ResourceSpace based on Ubuntu:latest container including OpenCV, poppler and php8.1.
 
-Please report any issues on GitHub: https://github.com/suntorytimed/resourcespace-docker/issues
+Please report any issues on GitHub: https://github.com/rpa21/resourcespace/issues
 
 ## docker-compose example
 
