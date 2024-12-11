@@ -40,8 +40,6 @@ RUN sed -i -e "s/post_max_size\s*=\s*8M/post_max_size = 10G/g" /etc/php/8.3/apac
 RUN sed -i -e "s/max_execution_time\s*=\s*30/max_execution_time = 10000/g" /etc/php/8.3/apache2/php.ini                                                      
 RUN sed -i -e "s/memory_limit\s*=\s*128M/memory_limit = 4G/g" /etc/php/8.3/apache2/php.ini
 
-RUN printf '[PHP]\ndate.timezone = Europe/Paris"\n' >> /usr/local/etc/php/conf.d/tzone.ini
-
 RUN printf '<Directory /var/www/>\n\
 \tOptions FollowSymLinks\n\
 </Directory>\n'\
